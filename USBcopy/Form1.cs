@@ -52,7 +52,7 @@ namespace USBcopy
         // Format Button
         private void button3_Click(object sender, EventArgs e)
         {
-            if (ask("Really format selected Device(s)?\nYou will lost ALL data!", "Format?"))
+            if (ask("Really format selected Device?\nYou will lost ALL data!", "Format?"))
                 doWork(1);
         }
         // SelAll Button
